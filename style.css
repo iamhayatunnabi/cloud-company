@@ -7,11 +7,7 @@
 .header {
   width: 100%;
   height: 100vh;
-}
-.header::after {
-  content: "";
-  clear: both;
-  display: block;
+  background: #223144;
 }
 
 .container {
@@ -19,6 +15,7 @@
   margin: auto;
   max-width: 1980px;
 }
+
 .navbar {
   display: flex;
   padding: 2% 14%;
@@ -81,4 +78,31 @@
 }
 #company {
   font-size: 40px;
+}
+.hero {
+  margin-top: 150px;
+}
+.hero h1 {
+  font-family: "Zilla Slab", sans-serif;
+  font-size: 65px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+.hero h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #cfd320;
+  text-align: center;
+}
+.hero p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 8px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
 }
