@@ -4,42 +4,13 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
-section {
-  width: 100%;
-  height: 90vh;
-  background: #1b2430;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-section::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 200px;
-  background: #fff;
-  clip-path: polygon(100% 0, 0 100%, 100% 100%);
-}
-.header {
-  width: 100%;
-  height: 100vh;
-}
-
-.container {
-  width: 100%;
-  margin: auto;
-  max-width: 1980px;
-}
-
+/*Navbar css start*/
 .navbar {
   display: flex;
-  padding: 4% 14%;
+  padding: 2% 16%;
   justify-content: space-between;
   align-items: center;
-  background: #1b2430;
+  background: #152130;
 }
 .logo a img {
   width: 70px;
@@ -97,10 +68,22 @@ section::before {
 #company {
   font-size: 40px;
 }
-.hero {
-  margin-top: 50px;
+/*Navbar css end*/
+/*hero section start*/
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  background: #1b2430;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 .hero h1 {
+  margin-top: -120px;
   font-family: "Zilla Slab", sans-serif;
   font-size: 65px;
   text-decoration: none;
@@ -127,3 +110,4 @@ section::before {
   text-align: center;
   line-height: 25px;
 }
+/*hero section end*/
