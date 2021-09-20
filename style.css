@@ -4,10 +4,28 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+section {
+  width: 100%;
+  height: 90vh;
+  background: #1b2430;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: #fff;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
 .header {
   width: 100%;
   height: 100vh;
-  background: #223144;
 }
 
 .container {
@@ -18,7 +36,7 @@
 
 .navbar {
   display: flex;
-  padding: 2% 14%;
+  padding: 4% 14%;
   justify-content: space-between;
   align-items: center;
   background: #1b2430;
@@ -80,7 +98,7 @@
   font-size: 40px;
 }
 .hero {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .hero h1 {
   font-family: "Zilla Slab", sans-serif;
@@ -92,17 +110,20 @@
 }
 .hero h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   text-decoration: none;
   text-transform: capitalize;
   color: #cfd320;
   text-align: center;
+  margin-top: -40px;
+  align-items: center;
 }
 .hero p {
   font-family: "Montserrat", sans-serif;
-  font-size: 8px;
+  font-size: 14px;
   text-decoration: none;
   text-transform: capitalize;
   color: #fff;
   text-align: center;
+  line-height: 25px;
 }
